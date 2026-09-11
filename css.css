@@ -1,0 +1,35 @@
+/**
+ * file: css.css
+ * purpose: styling
+ */
+
+/* Farvepalette */
+:root {
+  --tekst: #000;
+  --baggrund: #fff;
+}
+
+body {
+  background-color: var(--baggrund);
+  color: var(--tekst);
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 400;
+}
+
+button {
+  font-family: inherit;
+  font-weight: 500;
+}
